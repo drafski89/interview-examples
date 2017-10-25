@@ -9,7 +9,7 @@ def fib_iter(number):
         number = number-1
         
 def fib_rec(fib1, fib2, number):
-    if number > 0
+    if number > 0:
         print "{}".format(fib1+fib2)
         fib_rec(fib2,fib1+fib2,number-1)
         
