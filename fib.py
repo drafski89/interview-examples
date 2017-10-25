@@ -8,6 +8,11 @@ def fib_iter(number):
         fib2 = sum
         number = number-1
         
+def fib_rec(fib1, fib2, number):
+    if number > 0
+        print "{}".format(fib1+fib2)
+        fib_rec(fib2,fib1+fib2,number-1)
+        
         
 if __name__ == "__main__":
     # no error checking on input
@@ -15,3 +20,5 @@ if __name__ == "__main__":
     input_number = int(input_number)
     print "Now starting fib iteratively: "
     fib_iter(input_number)
+    print "Now starting fib recursively: "
+    fib_rec(0,1,input_number)
