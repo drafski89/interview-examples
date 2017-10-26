@@ -2,13 +2,13 @@
 
 def square_root(test_number, number):
     # calculate the difference
-    difference =  test_number * test_number - number
+    difference = number - test_number * test_number
 
     # if we are within 1% of target number
-    if difference < number * 0.01:
+    if abs(difference) < number * 0.01:
         return test_number
     else:
-        return ((number-test_number*test_number)/2, number)
+        return square_root((number-test_number*test_number)/4, number)
         
 if __name__ == "__main__":
     print "Enter the number for a squre root: "
