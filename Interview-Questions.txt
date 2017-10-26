@@ -1,4 +1,4 @@
-General
+1. General
 ---------------------------- 
 ---Print "foo" if number input is divisible by 5, "bar" if divisible by 7, "foobar" if both
 ---Find the most frequent integer in an array
@@ -18,7 +18,7 @@ General
 ---HARD: Given a function rand5() that returns a random int between 0 and 5, implement rand7()
 HARD: Given a 2D array of 1s and 0s, count the number of "islands of 1s" (e.g. groups of connecting 1s)
 
-Strings
+2. Strings
 ----------------------------
 Find the first non-repeated character in a String
 Reverse a String iteratively and recursively
@@ -30,7 +30,7 @@ HARD: Find the shortest palindrome in a String
 HARD: Print all permutations of a String
 HARD: Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right
 
-Trees
+3. Trees
 ----------------------------
 Implement a BST with insert and delete functions
 Print a tree using BFS and DFS
@@ -53,7 +53,7 @@ Write a function that sorts a stack (bonus: sort the stack in place without extr
 Implement a binary min heap. Turn it into a binary max heap
 HARD: Implement a queue using 2 stacks
 
-Linked Lists
+4. Linked Lists
 ----------------------------
 Implement a linked list (with insert and delete functions)
 Find the Nth element in a linked list
@@ -63,7 +63,7 @@ Given a circular linked list, find the node at the beginning of the loop. Exampl
 Check whether a link list is a palindrome
 Reverse a linked list iteratively and recursively
 
-Sorting
+5. Sorting
 ----------------------------
 Implement bubble sort
 Implement selection sort
